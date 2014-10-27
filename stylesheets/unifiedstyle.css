@@ -1,0 +1,144 @@
+
+/* ===== Initial Page Setup ===== */
+
+body {
+  border:6px solid black;
+}
+
+.container {
+  font-size: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  height: 95vh;
+}
+
+
+
+
+/* ===== Left Pane ===== */
+
+.books {
+  background-color: #F2F1EF;
+  float:left;
+  width: 440px;
+  overflow: scroll;
+  height: 95vh;
+}
+
+.books ul {
+  list-style: none;
+  padding-left: 5%;
+  padding-top:15%;
+}
+
+li img{
+  height: 121px;
+  width: 387px;
+  margin-top:-4%;
+}
+
+
+
+
+/* ===== Book Title & Author ===== */
+
+li:nth-child(even) {
+background: #000000;
+font-family: TwCenMT-Regular;
+font-size: 20px;
+color: #FFFFFF;
+line-height: 25px;
+height:50px;
+width: 374px;
+padding-left: 3%;
+position:relative;
+}
+
+
+
+/* ===== Book Image ===== */
+
+li:nth-child(odd) {
+position:relative;
+top:35px;
+}
+
+li:first-child {
+margin-top:10%;
+position: relative;
+}
+
+
+
+/* ===== Search Bar ===== */
+
+.booksearch {
+  border-radius: 1px;
+  background: #FFFFFF;
+  -moz-box-shadow:    1px 1px 3px 0px #4A4A4A;
+  box-shadow:         1px 1px 3px 0px #4A4A4A;
+  height:71px;
+  width:387px;
+  top:15%;
+  left:5%;
+  position: relative;
+}
+
+.booksearch p {
+  font-family: TwCenMT-Regular;
+  font-size: 24px;
+  color: #4A4A4A;
+  line-height: 27px;
+  letter-spacing: 0px;
+  position: absolute;
+  margin-left:5%;
+}
+
+.booksearch img {
+  width:40px;
+  height:40px;
+  position: absolute;
+  top:23%;
+  left:83%;
+}
+
+.booksearchbackground {
+  background-color: #F2F1EF;
+  width:440px;
+  height:120px;
+  position:fixed;
+  z-index: 1;
+}
+
+
+
+/* ===== Right Pane ===== */
+
+.content {
+  float: right;
+  width: 55%;
+  margin-right: 5%;
+  margin-left:40%;
+  position: fixed;
+  height: 95vh;
+}
+
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:active {
+    color: #ffffff;
+    text-decoration: none;
+
+}

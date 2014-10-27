@@ -1,0 +1,184 @@
+
+/* ===== Initial Page Setup ===== */
+
+body {
+  border:6px solid black;
+}
+
+.container {
+  font-size: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  height: 95vh;
+}
+
+.description p{
+font-family: TwCenMT-Regular;
+font-size: 20px;
+color: white;
+line-height: 25px;
+height:50px;
+width: 535px;
+padding-left: 1%;
+position:relative;
+background-color:black;
+border: 2px solid rgba(0,0,0,0.60);
+margin:1%;
+}
+
+/* ===== Left Pane ===== */
+
+.books {
+  background-color: #F2F1EF;
+  float:left;
+  width: 440px;
+  overflow: scroll;
+  height: 95vh;
+}
+
+.books ul {
+  list-style: none;
+  padding-left: 5%;
+  padding-top:15%;
+}
+
+li img{
+  height: 121px;
+  width: 387px;
+  margin-top:-4%;
+}
+
+
+
+
+/* ===== Book Title & Author ===== */
+
+li:nth-child(even) {
+background: #000000;
+font-family: TwCenMT-Regular;
+font-size: 20px;
+color: #FFFFFF;
+line-height: 25px;
+height:50px;
+width: 374px;
+padding-left: 3%;
+position:relative;
+}
+
+/* ===== Book Image ===== */
+
+li:nth-child(odd) {
+position:relative;
+top:35px;
+}
+
+li:first-child {
+margin-top:10%;
+position: relative;
+}
+
+
+/* ===== Right Pane ===== */
+
+.content {
+  position:fixed;
+  width:61%;
+  margin-left:440px;
+}
+
+.content .book-header {
+  background: #fff;
+  color: #000;
+  padding-top: 10%;
+  padding-left:13%;
+  padding-bottom:1%;
+}
+
+
+h1 {
+font-family: TwCenMT-Regular;
+font-size: 36px;
+color: #000000;
+line-height: 64px;
+}
+
+.content img{
+  float: right;
+  width:35%;
+  height:auto;
+  padding:2%;
+  margin-right:3%;
+}
+
+
+/* ===== LOGO ===== */
+
+.logo{
+  float:left;
+  margin-top: 2%;
+  margin-left:-13%;
+}
+
+.header-search {
+  border-radius: 1px;
+/* Rectangle 18: */
+background: rgba(249,184,156,0.50);
+-moz-box-shadow:    1px 1px 3px 0px #4A4A4A;
+box-shadow:         1px 1px 3px 0px #4A4A4A;
+width:555px;
+height:71px;
+margin-bottom: 2%;
+margin-top:-2%;
+}
+
+
+.search-bar {
+  float: left;
+  background-size: 40px;
+  padding-left:0%;
+  margin-top: 0px;
+}
+
+.search {
+  font-family: 'TwCenMT-Regular';
+    font-size: 24px;
+    padding: 8px;
+    padding-left: 3%;
+    width: 300px;
+    height:50px;
+    margin-left: 40px;
+    background: rgba(0,0,0,0);
+    outline: none;
+    border:0;
+
+.search:focus {
+  color: black;
+}
+
+.add-button {
+  border-radius: 1px;
+/* Rectangle 100: */
+background-image: -o-linear-gradient(-89deg, #F9B99C 0%, #E39F80 100%);
+background-image: -moz-linear-gradient(-89deg, #F9B99C 0%, #E39F80 100%);
+background-image: -ms-linear-gradient(-89deg, #F9B99C 0%, #E39F80 100%);
+background-image: linear-gradient(-179deg, #F9B99C 0%, #E39F80 100%);
+border: 2px solid rgba(0,0,0,0.60);
+-moz-box-shadow:    1px 1px 3px 0px #F9B99C;
+box-shadow:         1px 1px 3px 0px #F9B99C;
+height:40px;
+width:165px;
+float:right;
+margin-top:3%;
+margin-right: 5%;
+}
+
+.add-button-text {
+font-family: Helvetica-Bold;
+text-transform: uppercase;
+font-size: 15px;
+color: #000000;
+letter-spacing: 0px;
+margin-top:7%;
+margin-left:5%;
+}

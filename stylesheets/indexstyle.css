@@ -1,0 +1,149 @@
+
+/* ===== Initial Page Setup ===== */
+
+body {
+  border:6px solid black;
+}
+
+.container {
+  font-size: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  height: 95vh;
+}
+
+
+
+
+/* ===== Left Pane ===== */
+
+.books {
+  background-color: #F2F1EF;
+  float:left;
+  width: 440px;
+  overflow: scroll;
+  height: 95vh;
+}
+
+.books ul {
+  list-style: none;
+  padding-left: 5%;
+  padding-top:15%;
+}
+
+li img{
+  height: 121px;
+  width: 387px;
+  margin-top:-4%;
+}
+
+
+
+
+/* ===== Book Title & Author ===== */
+
+li:nth-child(even) {
+background: #000000;
+font-family: TwCenMT-Regular;
+font-size: 20px;
+color: #FFFFFF;
+line-height: 25px;
+height:50px;
+width: 374px;
+padding-left: 3%;
+position:relative;
+}
+
+/* ===== Book Image ===== */
+
+li:nth-child(odd) {
+position:relative;
+top:35px;
+}
+
+li:first-child {
+margin-top:10%;
+position: relative;
+}
+
+
+/* ===== Right Pane ===== */
+
+/* ===== LIBRARIAN TITLE ===== */
+
+.content p {
+  text-transform: uppercase;
+  padding-left: 22.5%;
+  padding-top: 34.5%;
+  margin-bottom:1%;
+  font-family: TwCenMT-Bold;
+  font-size: 64px;
+  color: #000000;
+  line-height: 79px;
+  letter-spacing: 10px;
+}
+.addbutton {
+  border-radius: 1px;
+  background-image: -o-linear-gradient(-89deg, #F9B99C 0%, #E39F80 100%);
+  background-image: -moz-linear-gradient(-89deg, #F9B99C 0%, #E39F80 100%);
+  background-image: -ms-linear-gradient(-89deg, #F9B99C 0%, #E39F80 100%);
+  background-image: linear-gradient(-179deg, #F9B99C 0%, #E39F80 100%);
+  border: 2px solid rgba(0,0,0,0.60);
+  -moz-box-shadow:    1px 1px 3px 0px #F9B99C;
+  box-shadow:         1px 1px 3px 0px #F9B99C;
+  width:370px;
+  height:71px;
+  position:relative;
+  left:23%;
+}
+
+
+
+/* ===== ADD NEW BOOK BUTTON ===== */
+
+.addbutton .buttontext {
+  text-transform: uppercase;
+  letter-spacing:2px;
+  position:relative;
+  left:11%;
+  top:30%;
+  font-family: Helvetica-Bold;
+  font-size: 26px;
+  color: #000000;
+  line-height: 30px;
+  letter-spacing: 0px;
+}
+
+.addbutton .plus {
+  position: relative;
+  left:75%;
+  top:-51%;
+  font-family: Helvetica-Bold;
+  font-size: 64px;
+  color: #000000;
+  line-height: 77px;
+}
+
+.search-bar {
+  float: left;
+  background-size: 40px;
+  padding-left:0%;
+  margin-top: 0px;
+}
+
+.search {
+  font-family: 'TwCenMT-Regular';
+    font-size: 24px;
+    padding: 8px;
+    padding-left: 3%;
+    width: 300px;
+    height:50px;
+    margin-left: 40px;
+    background: #FFFFFF;
+    outline: none;
+    border:0;
+
+.search:focus {
+  color: black;
+}

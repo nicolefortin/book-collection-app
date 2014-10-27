@@ -1,0 +1,54 @@
+
+/* LIBRARIAN TITLE: */
+.content p {
+  text-transform: uppercase;
+  padding-left: 22.5%;
+  padding-top: 34.5%;
+  margin-bottom:1%;
+  font-family: TwCenMT-Bold;
+  font-size: 64px;
+  color: #000000;
+  line-height: 79px;
+  letter-spacing: 10px;
+}
+
+.addbutton {
+  border-radius: 1px;
+  background-image: -o-linear-gradient(-89deg, #F9B99C 0%, #E39F80 100%);
+  background-image: -moz-linear-gradient(-89deg, #F9B99C 0%, #E39F80 100%);
+  background-image: -ms-linear-gradient(-89deg, #F9B99C 0%, #E39F80 100%);
+  background-image: linear-gradient(-179deg, #F9B99C 0%, #E39F80 100%);
+  border: 2px solid rgba(0,0,0,0.60);
+  -moz-box-shadow:    1px 1px 3px 0px #F9B99C;
+  box-shadow:         1px 1px 3px 0px #F9B99C;
+  width:370px;
+  height:71px;
+  position:relative;
+  left:23%;
+}
+
+
+/* ADD NEW BOOK: */
+.addbutton .buttontext {
+  text-transform: uppercase;
+  letter-spacing:2px;
+  position:relative;
+  left:11%;
+  top:30%;
+  font-family: Helvetica-Bold;
+  font-size: 26px;
+  color: #000000;
+  line-height: 30px;
+  letter-spacing: 0px;
+}
+
+.addbutton .plus {
+  position: relative;
+  left:75%;
+  top:-51%;
+  font-family: Helvetica-Bold;
+  font-size: 64px;
+  color: #000000;
+  line-height: 77px;
+}
+

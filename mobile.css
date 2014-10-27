@@ -1,0 +1,7 @@
+/* Media queries go here */
+@media screen and (max-width: 700px) {
+
+.content {
+  float: left;
+  width:100%;
+}
